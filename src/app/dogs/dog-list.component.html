@@ -1,0 +1,12 @@
+<h2 class="my-text">Dogs Route</h2>
+
+<div *ngIf="errorMessage">
+  {{ errorMessage }}
+</div>
+<div *ngIf="!errorMessage">
+  <ul>
+    <li *ngFor="let dog of dogs; let i = index;">
+      <a [routerLink]="[i]" class="nav-link">{{ dog }}</a>
+    </li>
+  </ul>
+</div>

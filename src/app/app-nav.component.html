@@ -1,0 +1,7 @@
+<header>
+  <ul>
+    <li *ngFor="let n of nav">
+      <a [routerLink]="n.path" [routerLinkActiveOptions]="{exact: true}" routerLinkActive="active">{{ n.name }}</a>
+    </li>
+  </ul>
+</header>

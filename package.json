@@ -1,0 +1,20 @@
+{
+  "name": "blackbaud-sky-pages-spa-rrrrr-app-name",
+  "version": "0.0.1",
+  "description": "Single-page-application for rrrrr-app-name",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.3.1"
+  },
+  "scripts": {
+    "sky-pages": "sky-pages",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Blackbaud",
+  "license": "ISC",
+  "devDependencies": {
+    "blackbaud-sky-pages-in-fs": "blackbaud/sky-pages-in-fs",
+    "blackbaud-sky-pages-out-skyux2": "blackbaud/sky-pages-out-skyux2"
+  }
+}

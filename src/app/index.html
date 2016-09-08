@@ -1,0 +1,20 @@
+<h2>Welcome!  This is the default route!!</h2>
+
+<sky-alert>
+  Info alert
+</sky-alert>
+
+<sky-card>
+  <sky-card-title>Card title</sky-card-title>
+  <sky-card-content>Card content</sky-card-content>
+</sky-card>
+
+<button type="button" class="sky-btn">My Sky Button</button>
+
+<h3>Debugging SKY Pages</h3>
+
+<ul>
+  <li *ngFor="let entry of SKY_PAGES.entries;">
+    <a>{{ entry.path }}</a>
+  </li>
+</ul>
