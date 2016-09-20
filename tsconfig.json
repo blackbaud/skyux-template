@@ -1,5 +1,23 @@
 {
+  "extends": "./node_modules/blackbaud-sky-pages-out-skyux2/tsconfig",
   "compilerOptions": {
-    "experimentalDecorators": true
-  }
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "types": [
+      "jasmine",
+      "node"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
 }
