@@ -11,7 +11,7 @@ const appRoutes: Routes = [
   { path: 'cats', component: CatsComponent },
   { path: 'dogs', component: DogListComponent },
   { path: 'dogs/:id', component: DogComponent },
-  { path: '**', component: NotFoundComponent },
+  // { path: '**', component: NotFoundComponent },
   { path: '', component: HomeComponent }
 ];
 
