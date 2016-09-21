@@ -10,7 +10,7 @@ export class DogListService {
 
   public getDogList(): Observable<any> {
     return this.http
-      .get('dog-list.json')
+      .get('../dogs/dog-list.json')
       .map((res: Response) => {
         let body = res.json();
         return body;
