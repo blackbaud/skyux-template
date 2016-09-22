@@ -12,16 +12,8 @@ export class AppNavComponent {
       path: '/'
     },
     {
-      name: 'Cats',
-      path: '/cats'
-    },
-    {
-      name: 'Dogs',
-      path: '/dogs'
-    },
-    {
-      name: '404',
-      path: '/asdf'
+      name: 'About',
+      path: '/about'
     }
   ];
 }
