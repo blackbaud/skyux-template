@@ -14,7 +14,7 @@
   "author": "Blackbaud",
   "license": "ISC",
   "dependencies": {
-    "blackbaud-skyux2": "2.0.0-alpha.5"
+    "blackbaud-skyux2": "2.0.0-alpha.6"
   },
   "devDependencies": {
     "blackbaud-sky-pages-in-fs": "blackbaud/sky-pages-in-fs",
