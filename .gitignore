@@ -38,3 +38,6 @@ jspm_packages
 
 # SKY Pages temp directory
 .skypagestmp
+
+# SKY Pages build directory
+dist
