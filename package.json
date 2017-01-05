@@ -1,5 +1,5 @@
 {
-  "name": "blackbaud-sky-pages-spa-rrrrr-app-name",
+  "name": "blackbaud-skyux-spa-rrrrr-app-name",
   "version": "0.0.1",
   "description": "Single-page-application for rrrrr-app-name",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "node": ">=6.3.1"
   },
   "scripts": {
-    "sky-pages": "sky-pages",
+    "skyux": "skyux",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,7 +17,7 @@
     "blackbaud-skyux2": "2.0.0-alpha.13"
   },
   "devDependencies": {
-    "blackbaud-sky-pages-out-skyux2": "blackbaud/sky-pages-out-skyux2",
+    "@blackbaud/skyux-builder": "1.0.0-beta.0",
     "codelyzer": "2.0.0-beta.1"
   }
 }

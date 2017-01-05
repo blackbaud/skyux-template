@@ -1,5 +1,5 @@
 {
-  "extends": "./node_modules/blackbaud-sky-pages-out-skyux2/tsconfig",
+  "extends": "./node_modules/@blackbaud/skyux-builder/tsconfig",
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
