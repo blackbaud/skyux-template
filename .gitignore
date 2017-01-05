@@ -16,8 +16,8 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-# SKY Pages temp directory
-.skypagestmp
+# SKY UX temp directory
+.skyuxtmp
 
-# SKY Pages build directory
+# SKY UX build directory
 dist
