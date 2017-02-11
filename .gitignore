@@ -21,3 +21,6 @@ jspm_packages
 
 # SKY UX build directory
 dist
+
+# OS specific files
+.DS_Store
