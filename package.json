@@ -17,7 +17,7 @@
     "@blackbaud/skyux": "2.0.0-beta.10"
   },
   "devDependencies": {
-    "@blackbaud/skyux-builder": "1.0.0-beta.12",
+    "@blackbaud/skyux-builder": "1.0.0-beta.11",
     "codelyzer": "2.0.0-beta.1"
   }
 }
