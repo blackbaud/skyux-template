@@ -14,10 +14,10 @@
   "author": "Blackbaud",
   "license": "ISC",
   "dependencies": {
-    "@blackbaud/skyux": "2.0.0-beta.6"
+    "@blackbaud/skyux": "2.0.0-beta.10"
   },
   "devDependencies": {
-    "@blackbaud/skyux-builder": "1.0.0-beta.9",
+    "@blackbaud/skyux-builder": "1.0.0-beta.12",
     "codelyzer": "2.0.0-beta.1"
   }
 }
