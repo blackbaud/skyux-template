@@ -14,11 +14,11 @@ describe('Home component', () => {
 
   it('should display a sky-alert', () => {
     const fixture = TestBed.createComponent(HomeComponent);
-    const alert = fixture.nativeElement.querySelector('sky-alert');
+    const alertEl = fixture.nativeElement.querySelector('sky-alert');
 
     // Using custom expect matchers
-    expect(alert).toBeVisible();
-    expect(alert).toHaveText(`You've just taken your first step into a larger world.`);
+    expect(alertEl).toBeVisible();
+    expect(alertEl).toHaveText(`You've just taken your first step into a larger world.`);
   });
 
 });

@@ -12,16 +12,7 @@ describe('About component', () => {
     });
   });
 
-  it('should expose the team array', () => {
-    const fixture = TestBed.createComponent(AboutComponent);
-    expect(fixture.componentInstance.team).toBeDefined();
-    expect(fixture.componentInstance.team[0]).toEqual({
-      name: 'Robert Hernandez',
-      email: 'rh@edu.org'
-    });
-  });
-
-  it('should display a new item in the team array', () => {
+  it('should display a new teammate when one is added', () => {
     const name = 'Blackbaud';
     const email = 'no-reply@blackbaud.com';
     const fixture = TestBed.createComponent(AboutComponent);
@@ -33,12 +24,14 @@ describe('About component', () => {
 
     fixture.detectChanges();
 
-    const names = fixture.nativeElement.querySelectorAll('sky-key-info-value');
-    const emails = fixture.nativeElement.querySelectorAll('sky-key-info-label');
+    const el = fixture.nativeElement;
+    const lastTeamEl = el.querySelector('.template-about-teams .template-about-team:last-child');
+    const namesEl = lastTeamEl.querySelector('sky-key-info-value');
+    const emailsEl = lastTeamEl.querySelector('sky-key-info-label');
 
     // Using custom expect matchers
-    expect(names[names.length - 1]).toHaveText(name);
-    expect(emails[emails.length - 1]).toHaveText(email);
+    expect(namesEl).toHaveText(name);
+    expect(emailsEl).toHaveText(email);
   });
 
 });
