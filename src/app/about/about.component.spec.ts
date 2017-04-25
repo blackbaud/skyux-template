@@ -6,6 +6,12 @@ import { AboutComponent } from './about.component';
 
 describe('About component', () => {
 
+   /**
+    * This configureTestingModule function imports the SkyAppTestModule, which brings in all of
+    * the SKY UX modules and components in your application for testing convenience. If this is
+    * having an adverse effect on your test performance, you can bring in each of your app
+    * components and SKY UX modules those components rely upon individually.
+    */
   beforeEach(() => {
     TestBed.configureTestingModule({
       imports: [SkyAppTestModule]
