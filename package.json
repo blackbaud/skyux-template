@@ -14,10 +14,10 @@
   "author": "Blackbaud",
   "license": "ISC",
   "dependencies": {
-    "@blackbaud/skyux": "2.0.0-beta.20"
+    "@blackbaud/skyux": "blackbaud/skyux2#ng4-upgrade"
   },
   "devDependencies": {
-    "@blackbaud/skyux-builder": "1.0.0-beta.21",
+    "@blackbaud/skyux-builder": "blackbaud/skyux-builder#update-angular",
     "codelyzer": "2.0.0-beta.1"
   }
 }
