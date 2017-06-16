@@ -11,8 +11,8 @@ describe('Home Component', () => {
 
     // Host URL + SPA Name automatically included
     SkyHostBrowser.get('/');
-    expect(element(by.tagName('h1')).getText()).toBe('SKY UX Template');
-    expect(element(by.className('sky-alert')).getText()).toBe(
+    expect(element(by.tagName('h1')).getText()).toEqual('SKY UX Template');
+    expect(element(by.className('sky-alert')).getText()).toEqual(
       `You've just taken your first step into a larger world.`
     );
 
