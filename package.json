@@ -14,7 +14,7 @@
   "author": "Blackbaud",
   "license": "ISC",
   "dependencies": {
-    "@blackbaud/skyux": "blackbaud/skyux2#ng4-upgrade"
+    "@blackbaud/skyux": "2.0.0-rc.0"
   },
   "devDependencies": {
     "@blackbaud/skyux-builder": "blackbaud/skyux-builder#update-angular",
