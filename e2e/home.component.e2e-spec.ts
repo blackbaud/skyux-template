@@ -11,12 +11,17 @@ describe('Home Component', () => {
 
     // Host URL + SPA Name automatically included
     SkyHostBrowser.get('/');
-    expect(element(by.tagName('h1')).getText()).toEqual('SKY UX Template');
-    expect(element(by.className('sky-alert')).getText()).toEqual(
-      `You've just taken your first step into a larger world.`
-    );
+    element(by.tagName('h1')).getText().then((h1result: string) => {
+      expect(h1result).toEqual('SKY UX Template');
 
-    // // Since we've said this is an async test, we need to call done
-    done();
+      element(by.className('sky-alert')).getText().then((alertResult: string) => {
+        expect(alertResult).toEqual(
+          `You've just taken your first step into a larger world.`
+        );
+        // Since we've said this is an async test, we need to call done
+        done();
+      });
+    });
+
   });
 });
