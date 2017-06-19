@@ -1,3 +1,6 @@
 {
-  "extends": "./node_modules/@blackbaud/skyux-builder/tsconfig"
+  "extends": "./node_modules/@blackbaud/skyux-builder/tsconfig",
+  "compilerOptions": {
+    "module": "commonjs"
+  }
 }
