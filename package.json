@@ -17,7 +17,6 @@
     "@blackbaud/skyux": "2.0.0-rc.0"
   },
   "devDependencies": {
-    "@blackbaud/skyux-builder": "blackbaud/skyux-builder#update-angular",
-    "codelyzer": "3.0.1"
+    "@blackbaud/skyux-builder": "1.0.0-rc.0"
   }
 }
