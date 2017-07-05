@@ -17,6 +17,6 @@
     "@blackbaud/skyux": "2.0.0-rc.4"
   },
   "devDependencies": {
-    "@blackbaud/skyux-builder": "git://github.com/blackbaud/skyux-builder.git#release-1.0.0-rc.5"
+    "@blackbaud/skyux-builder": "1.0.0-rc.5"
   }
 }
