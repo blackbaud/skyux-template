@@ -4,7 +4,7 @@
   "description": "Single-page-application for rrrrr-app-name",
   "main": "index.js",
   "engines": {
-    "node": ">=6.9.1"
+    "node": ">=6.11.1"
   },
   "scripts": {
     "skyux": "skyux",
@@ -14,9 +14,9 @@
   "author": "Blackbaud",
   "license": "ISC",
   "dependencies": {
-    "@blackbaud/skyux": "2.0.0-rc.4"
+    "@blackbaud/skyux": "2.0.0-rc.5"
   },
   "devDependencies": {
-    "@blackbaud/skyux-builder": "1.0.0-rc.6"
+    "@blackbaud/skyux-builder": "1.0.0-rc.7"
   }
 }
