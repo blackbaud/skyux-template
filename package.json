@@ -17,6 +17,6 @@
     "@blackbaud/skyux": "2.0.0-rc.5"
   },
   "devDependencies": {
-    "@blackbaud/skyux-builder": "1.0.0-rc.7"
+    "@blackbaud/skyux-builder": "1.0.0-rc.8"
   }
 }
