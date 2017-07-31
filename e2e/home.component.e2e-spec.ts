@@ -23,5 +23,13 @@ describe('Home Component', () => {
       });
     });
 
+    // calls set of accessibility rules for what is curently rendered
+    it('should pass all accessibility rules', (done) => {
+        SkyA11y.run().then(failures => {
+          expect(failures).toBe(0);
+          done();
+        });
+      });
+
   });
 });
