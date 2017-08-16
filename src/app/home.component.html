@@ -12,3 +12,30 @@
     Learn more about SKY UX
   </a>
 <p>
+
+  <sky-tile (settingsClick)="tileSettingsClick()">
+  <sky-tile-title>
+    Accessibility <abbr title="end to end">e2e</abbr> test examples
+  </sky-tile-title>
+  <sky-tile-content>
+    <sky-tile-content-section>
+      <h2 class="sky-subsection-heading">Passing examples</h2>
+      <p>These examples will pass the 'label' accessibility rule</p>
+      <div>
+        <label>First name:<br>
+          <input type="text" name="firstname"></label>
+      </div>
+      <div>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname">
+      </div>
+      <h2 class="sky-subsection-heading">Failing examples</h2>
+      <p>This example will fail the 'label' accessibility rule</p>
+      <p class="sky-deemphasized">Uncomment this section to see error when running 'skyux e2e'</p>
+      <!-- <div>
+        <label>First name:</label><br>
+        <input type="text" id="thefirstname">
+      </div> -->
+    </sky-tile-content-section>
+  </sky-tile-content>
+</sky-tile>
