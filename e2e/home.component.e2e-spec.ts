@@ -3,6 +3,7 @@ import { element, by } from 'protractor';
 
 // Use SkyHostBrowser to access your locally served SPA
 import { SkyHostBrowser } from '@blackbaud/skyux-builder/runtime/testing/e2e';
+import { SkyA11y } from '@blackbaud/skyux-builder/runtime/testing/e2e/a11y';
 
 describe('Home Component', () => {
 
@@ -18,10 +19,15 @@ describe('Home Component', () => {
         expect(alertResult).toEqual(
           `You've just taken your first step into a larger world.`
         );
-        // Since we've said this is an async test, we need to call done
-        done();
+
+        // Check accessibility rules.
+        SkyA11y.run().then((violations: number) => {
+          expect(violations).toEqual(0);
+
+          // Since we've said this is an async test, we need to call done
+          done();
+        });
       });
     });
-
   });
 });
