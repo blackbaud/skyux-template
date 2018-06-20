@@ -5,13 +5,16 @@ import {
 require('style-loader!@blackbaud/skyux/dist/css/sky.css');
 
 import {
-  SkyModule
-} from '@blackbaud/skyux/dist/core';
+  SkyModalModule
+} from '@blackbaud/skyux/dist/modules/modal';
 
 // Specify entry components, module-level providers, etc. here.
 @NgModule({
+  imports: [
+    SkyModalModule
+  ],
   exports: [
-    SkyModule
+    SkyModalModule
   ],
   providers: [],
   entryComponents: []
