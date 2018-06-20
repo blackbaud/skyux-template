@@ -14,7 +14,20 @@
   "author": "Blackbaud",
   "license": "ISC",
   "dependencies": {
-    "@blackbaud/skyux": "latest"
+    "@angular/animations": "4.3.6",
+    "@angular/common": "4.3.6",
+    "@angular/compiler": "4.3.6",
+    "@angular/compiler-cli": "4.3.6",
+    "@angular/core": "4.3.6",
+    "@angular/forms": "4.3.6",
+    "@angular/http": "4.3.6",
+    "@angular/platform-browser": "4.3.6",
+    "@angular/platform-browser-dynamic": "4.3.6",
+    "@angular/router": "4.3.6",
+    "@blackbaud/skyux": "latest",
+    "core-js": "2.4.1",
+    "rxjs": "5.4.3",
+    "zone.js": "0.8.10"
   },
   "devDependencies": {
     "@blackbaud/skyux-builder": "latest"
