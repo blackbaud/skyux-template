@@ -30,6 +30,6 @@
     "zone.js": "0.8.10"
   },
   "devDependencies": {
-    "@blackbaud/skyux-builder": "latest"
+    "@blackbaud/skyux-builder": "blackbaud/skyux-builder#remove-ux"
   }
 }
