@@ -1,4 +1,5 @@
 {
   "mode": "easy",
-  "compileMode": "aot"
+  "compileMode": "aot",
+  "a11y": true
 }
