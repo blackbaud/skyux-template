@@ -2,8 +2,6 @@ import {
   NgModule
 } from '@angular/core';
 
-require('style-loader!@blackbaud/skyux/dist/css/sky.css');
-
 import {
   SkyAlertModule
 } from '@blackbaud/skyux/dist/modules/alert';
@@ -27,6 +25,8 @@ import {
 import {
   SkyNavbarModule
 } from '@blackbaud/skyux/dist/modules/navbar';
+
+require('style-loader!@blackbaud/skyux/dist/css/sky.css');
 
 // Specify entry components, module-level providers, etc. here.
 @NgModule({
