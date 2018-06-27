@@ -26,8 +26,6 @@ import {
   SkyNavbarModule
 } from '@blackbaud/skyux/dist/modules/navbar';
 
-require('style-loader!@blackbaud/skyux/dist/css/sky.css');
-
 // Specify entry components, module-level providers, etc. here.
 @NgModule({
   imports: [
