@@ -30,6 +30,9 @@
     "zone.js": "0.8.10"
   },
   "devDependencies": {
-    "@blackbaud/skyux-builder": "blackbaud/skyux-builder#rc-2.0.0"
+    "@blackbaud/skyux-builder": "blackbaud/skyux-builder#rc-2.0.0",
+    "ts-node": "3.0.4",
+    "tslint": "5.2.0",
+    "typescript": "2.3.2"
   }
 }
