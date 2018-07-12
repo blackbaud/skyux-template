@@ -8,6 +8,7 @@
   },
   "scripts": {
     "skyux": "skyux",
+    "build": "skyux build",
     "test": "skyux test",
     "test:watch": "skyux watch",
     "start": "skyux serve",
