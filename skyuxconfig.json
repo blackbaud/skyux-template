@@ -1,10 +1,5 @@
 {
   "mode": "easy",
   "compileMode": "aot",
-  "a11y": true,
-  "app": {
-    "styles": [
-      "@blackbaud/skyux/dist/css/sky.css"
-    ]
-  }
+  "a11y": true
 }
