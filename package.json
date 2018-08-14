@@ -26,6 +26,7 @@
     "@angular/router": "4.3.6",
     "@blackbaud/skyux": "2.19.0",
     "@skyux/builder-utils": ">=3.0.0-alpha.1",
+    "@skyux/http": ">=3.0.0-alpha.0",
     "@skyux/theme": ">=3.0.0-alpha.4",
     "core-js": "2.4.1",
     "rxjs": "5.4.3",
@@ -33,6 +34,7 @@
   },
   "devDependencies": {
     "@blackbaud/skyux-builder": "blackbaud/skyux-builder#rc-add-utils",
+    "@skyux-sdk/pact": ">=3.0.0-alpha.0",
     "ts-node": "3.0.4",
     "tslint": "5.2.0",
     "typescript": "2.3.2"
