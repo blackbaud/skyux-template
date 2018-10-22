@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "Single-page-application for rrrrr-app-name",
   "main": "index.js",
-  "engines": {
-    "node": ">=6.11.1"
-  },
   "scripts": {
     "skyux": "skyux",
     "build": "skyux build",
