@@ -2,10 +2,8 @@
   "name": "blackbaud-skyux-spa-rrrrr-app-name",
   "version": "0.0.1",
   "description": "Single-page-application for rrrrr-app-name",
+  "repository": {},
   "main": "index.js",
-  "engines": {
-    "node": ">=6.11.1"
-  },
   "scripts": {
     "skyux": "skyux",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +12,6 @@
   "author": "Blackbaud",
   "license": "ISC",
   "dependencies": {
-    "@angular/animations": "4.3.6",
     "@angular/common": "4.3.6",
     "@angular/compiler": "4.3.6",
     "@angular/core": "4.3.6",
@@ -24,11 +21,15 @@
     "@angular/platform-browser-dynamic": "4.3.6",
     "@angular/router": "4.3.6",
     "@skyux/assets": "3.0.0",
-    "@skyux/config": "3.0.0",
+    "@skyux/avatar": "3.0.0-rc.1",
+    "@skyux/config": "3.1.0",
     "@skyux/core": "3.1.0",
-    "@skyux/i18n": "3.0.1",
-    "@skyux/indicators": "3.0.0-rc.0",
-    "@skyux/modals": "3.0.0-rc.0",
+    "@skyux/errors": "3.0.0-rc.1",
+    "@skyux/forms": "3.0.0-rc.1",
+    "@skyux/http": "3.0.0",
+    "@skyux/i18n": "3.2.0",
+    "@skyux/indicators": "3.0.0-rc.2",
+    "@skyux/modals": "3.0.0-rc.1",
     "@skyux/omnibar-interop": "3.0.0",
     "@skyux/router": "3.0.0",
     "@skyux/theme": "3.2.0",
@@ -39,6 +40,8 @@
   "devDependencies": {
     "@angular/compiler-cli": "4.3.6",
     "@blackbaud/skyux-builder": "blackbaud/skyux-builder#rc-remove-runtime-modules",
+    "@skyux-sdk/e2e": "3.0.0",
+    "@skyux-sdk/testing": "3.0.0",
     "@types/core-js": "0.9.41",
     "codelyzer": "3.0.1",
     "ts-node": "3.0.4",

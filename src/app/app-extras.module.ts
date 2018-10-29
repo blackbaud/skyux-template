@@ -3,48 +3,33 @@ import {
 } from '@angular/core';
 
 import {
-  SkyAlertModule
-} from '@blackbaud/skyux/dist/modules/alert';
-
-import {
   SkyAvatarModule
-} from '@blackbaud/skyux/dist/modules/avatar';
+} from '@skyux/avatar';
 
 import {
   SkyErrorModule
-} from '@blackbaud/skyux/dist/modules/error';
+} from '@skyux/errors';
 
 import {
+  SkyAlertModule,
   SkyKeyInfoModule
-} from '@blackbaud/skyux/dist/modules/key-info';
+} from '@skyux/indicators';
 
 import {
   SkyModalModule
-} from '@blackbaud/skyux/dist/modules/modal';
+} from '@skyux/modals';
 
-import {
-  SkyNavbarModule
-} from '@blackbaud/skyux/dist/modules/navbar';
+// import {
+//   SkyNavbarModule
+// } from '@blackbaud/skyux/modules/navbar';
 
-// Specify entry components, module-level providers, etc. here.
 @NgModule({
-  imports: [
-    SkyAlertModule,
-    SkyAvatarModule,
-    SkyErrorModule,
-    SkyKeyInfoModule,
-    SkyModalModule,
-    SkyNavbarModule
-  ],
   exports: [
     SkyAlertModule,
     SkyAvatarModule,
     SkyErrorModule,
     SkyKeyInfoModule,
-    SkyModalModule,
-    SkyNavbarModule
-  ],
-  providers: [],
-  entryComponents: []
+    SkyModalModule
+  ]
 })
 export class AppExtrasModule { }
