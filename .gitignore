@@ -23,6 +23,8 @@ package-lock.json
 
 # SKY UX build directory
 dist
+.skypagestmp
+.skypageslocales
 
 # OS specific files
 .DS_Store
