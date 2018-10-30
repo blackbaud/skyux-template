@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@angular/compiler-cli": "4.3.6",
-    "@blackbaud/skyux-builder": "blackbaud/skyux-builder#rc-remove-runtime-modules",
+    "@blackbaud/skyux-builder": "latest",
     "@skyux-sdk/e2e": "3.0.0",
     "@skyux-sdk/testing": "3.0.0",
     "@types/core-js": "0.9.41",
