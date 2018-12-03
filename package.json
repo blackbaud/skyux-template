@@ -43,7 +43,7 @@
     "@angular/compiler-cli": "7.1.1",
     "@blackbaud/skyux-builder": "blackbaud/skyux-builder#rc-upgrade-deps",
     "@skyux-sdk/e2e": "3.0.1",
-    "@skyux-sdk/pact": "3.0.1",
+    "@skyux-sdk/pact": "3.1.0",
     "@skyux-sdk/testing": "3.0.0",
     "@types/core-js": "2.5.0",
     "codelyzer": "4.5.0",
