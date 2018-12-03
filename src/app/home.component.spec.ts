@@ -4,7 +4,7 @@ import { expect } from '@skyux-sdk/testing';
 
 import {
   SkyAppTestModule
-} from '@blackbaud/skyux-builder/runtime/testing/browser';
+} from '@skyux-sdk/builder/runtime/testing/browser';
 
 // Component we're going to test
 import { HomeComponent } from './home.component';
