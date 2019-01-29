@@ -1,26 +1,8 @@
-import {
-  NgModule
-} from '@angular/core';
+import { NgModule } from '@angular/core';
 
-import {
-  SkyAvatarModule
-} from '@skyux/avatar';
-
-import {
-  SkyAlertModule,
-  SkyKeyInfoModule
-} from '@skyux/indicators';
-
-import {
-  SkyFluidGridModule
-} from '@skyux/layout';
-
+// Specify entry components, module-level providers, etc. here.
 @NgModule({
-  exports: [
-    SkyAlertModule,
-    SkyAvatarModule,
-    SkyFluidGridModule,
-    SkyKeyInfoModule
-  ]
+  providers: [],
+  entryComponents: []
 })
 export class AppExtrasModule { }
