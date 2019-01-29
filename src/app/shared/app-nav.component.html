@@ -1,16 +1,11 @@
-<nav>
-  <ul class="app-navbar">
-    <li *ngFor="let n of nav"
-      class="app-navbar-item"
+<sky-navbar>
+  <sky-navbar-item *ngFor="let n of nav">
+    <a
+      [routerLink]="n.path"
+      [routerLinkActiveOptions]="{exact: true}"
+      routerLinkActive="sky-navbar-item-active"
     >
-      <a
-        class="app-navbar-anchor"
-        [routerLink]="n.path"
-        [routerLinkActiveOptions]="{exact: true}"
-        routerLinkActive="app-navbar-item-active"
-      >
-        {{ n.titleKey | skyAppResources }}
-      </a>
-    </li>
-  </ul>
-</nav>
+      {{ n.titleKey | skyAppResources }}
+    </a>
+  </sky-navbar-item>
+</sky-navbar>

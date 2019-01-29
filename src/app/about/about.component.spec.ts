@@ -1,19 +1,8 @@
-import {
-  TestBed
-} from '@angular/core/testing';
-
-import {
-  SkyAppTestModule
-} from '@skyux-sdk/builder/runtime/testing/browser';
-
-import {
-  expect
-} from '@skyux-sdk/testing';
+import { TestBed } from '@angular/core/testing';
+import { expect, SkyAppTestModule } from '@blackbaud/skyux-builder/runtime/testing/browser';
 
 // Component we're going to test
-import {
-  AboutComponent
-} from './about.component';
+import { AboutComponent } from './about.component';
 
 describe('About component', () => {
 

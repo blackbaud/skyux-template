@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "description": "Single-page-application for rrrrr-app-name",
   "main": "index.js",
+  "engines": {
+    "node": ">=6.11.1"
+  },
   "scripts": {
+    "skyux": "skyux",
     "build": "skyux build",
     "test": "skyux test",
     "test:watch": "skyux watch",
@@ -16,46 +20,10 @@
   "keywords": [],
   "author": "Blackbaud",
   "license": "ISC",
-  "repository": {},
   "dependencies": {
-    "@angular/animations": "latest",
-    "@angular/common": "latest",
-    "@angular/compiler": "latest",
-    "@angular/core": "latest",
-    "@angular/forms": "latest",
-    "@angular/http": "latest",
-    "@angular/platform-browser": "latest",
-    "@angular/platform-browser-dynamic": "latest",
-    "@angular/router": "latest",
-    "@blackbaud/auth-client": "latest",
-    "@skyux/assets": "latest",
-    "@skyux/avatar": "latest",
-    "@skyux/config": "latest",
-    "@skyux/core": "latest",
-    "@skyux/errors": "latest",
-    "@skyux/forms": "latest",
-    "@skyux/http": "latest",
-    "@skyux/i18n": "latest",
-    "@skyux/indicators": "latest",
-    "@skyux/layout": "latest",
-    "@skyux/modals": "latest",
-    "@skyux/omnibar-interop": "latest",
-    "@skyux/router": "latest",
-    "@skyux/theme": "latest",
-    "rxjs": "latest",
-    "rxjs-compat": "latest",
-    "zone.js": "latest"
+    "@blackbaud/skyux": "2.22.0"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "latest",
-    "@pact-foundation/pact-web": "latest",
-    "@skyux-sdk/builder": "latest",
-    "@skyux-sdk/pact": "latest",
-    "@skyux-sdk/testing": "latest",
-    "@types/core-js": "latest",
-    "codelyzer": "latest",
-    "ts-node": "latest",
-    "tslint": "latest",
-    "typescript": "latest"
+    "@blackbaud/skyux-builder": "1.20.0"
   }
 }

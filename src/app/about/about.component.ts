@@ -1,13 +1,11 @@
-import {
-  Component
-} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-about',
   templateUrl: './about.component.html'
 })
 export class AboutComponent {
-  public team: { name: string; email: string; }[] = [
+  public team = [
     {
       name: 'Robert Hernandez',
       email: 'rh@edu.org'
@@ -21,4 +19,6 @@ export class AboutComponent {
       email: 'michael@jordon.net'
     }
   ];
+
+  constructor() {}
 }
